@@ -1,0 +1,13 @@
+diff -r 2273154dbd59 -r 297f975148ba ns-3.15/src/wifi/model/dcf-manager.cc
+--- a/ns-3.15/src/wifi/model/dcf-manager.cc	Thu Oct 18 22:09:15 2012 -0400
++++ b/ns-3.15/src/wifi/model/dcf-manager.cc	Sun Oct 21 20:30:44 2012 -0400
+@@ -400,7 +400,8 @@
+    * by notifying the collision to the user.
+    */
+   if (state->GetBackoffSlots () == 0
+-      && IsBusy ())
++      && //IsBusy ())
++		GetBackoffStartFor (state) > Simulator::Now ())
+     {
+       MY_DEBUG ("medium is busy: collision");
+       /* someone else has accessed the medium.
