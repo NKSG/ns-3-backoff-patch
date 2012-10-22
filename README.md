@@ -3,7 +3,7 @@ ns-3-backoff-patch
 
 A temporary workaround for the ns-3 wireless backoff problem
 
-The dcf-manager.patch is based on the following bug discussion
+The dcf-manager.patch is based on the following bug discussion:
 https://www.nsnam.org/bugzilla/show_bug.cgi?id=737
 
 The dca-txop.patch is based on the following discussion in the ns-3-user google group:
