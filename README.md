@@ -7,7 +7,7 @@ The dcf-manager.patch is based on the following bug discussion:
 
 https://www.nsnam.org/bugzilla/show_bug.cgi?id=737
 
-The above patche can completely solve the backoff problems. For more discussion, checkout the following discussions:
+The above patch cannot completely solve the backoff problems. For more discussion, checkout the following discussions:
 
 https://www.nsnam.org/bugzilla/show_bug.cgi?id=912
 
