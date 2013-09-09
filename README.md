@@ -18,5 +18,5 @@ http://mailman.isi.edu/pipermail/ns-developers/2010-August/008240.html
 Apply the patch
 ===============
 
-In your ns-3.15 directory:
+In your ns-3.17 directory:
 hg import patchname.patch
